@@ -9,7 +9,9 @@ header{
     position: fixed;
     top: 0;
     right: 0;
+
     width: 100%;
+  
     z-index: 999;
 }
 #menu li a{
@@ -108,7 +110,29 @@ header{
   width: 100%;
   object-fit: cover;
 }
-
+#sec-space{
+  padding: 4rem 0;
+}
+.fe-box img{
+  width: 50px;
+  margin-top: 3rem ;
+}
+.fe-box{
+  display: flex ;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.fe-box div{
+  width: 200px;
+}
+.fe-box h3{
+  font-size: 18px;
+}
+.fe-box p{
+  font-size: 16px;
+  padding: 12x;
+}
 @media (max-width:699px){
       #menu{
         display: block;
@@ -145,6 +169,21 @@ header{
         background-color: #1f4a40;
         color: white;
       }
+      /* .hero-box{
+        flex-direction: column-reverse;
+        justify-content: center;
+        height: auto;
+        align-items: start;
+        padding: 8px 0;
+      }
+      .h-left{
+        width: 100%;
+      }
+      .h-right{
+        display: none;
+      } */
 
-
+.fe-box div{
+  width: 40%;
+}
 }
