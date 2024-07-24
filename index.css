@@ -7,6 +7,13 @@
 /* header  section start */
 header{
   background-color: #1f4a40;
+  /* width: 100%; */
+  /* height: 80px; */
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  z-index: 999;
 }
 #navbar{
   display: flex;
@@ -87,3 +94,55 @@ header{
          
 }
 /* header section complete */
+/* hero section */
+.hero{
+  background-color: #1f4a40;
+}
+.hero-box{
+  display: flex;
+  justify-content: space-between;
+  height: 100vh;
+  align-items: center;
+}
+.h-right{
+  width: 50%;
+  
+}
+.h-right img{
+  width: 90%;
+  height: 350px;
+  object-fit: cover;
+}
+.h-left{
+  width: 45%;
+  color: white;
+}
+.h-left p{
+  padding: 1.5rem 0;
+}
+.search{
+  position: absolute;
+
+}
+.search input{
+  width: 100%;
+  height: 4rem;
+  border-radius: 35px;
+  padding: 0 80px;
+  font-size: 1rem;
+  outline: none;
+  border: none;
+}
+.search a{
+  position:absolute;
+  top: 12px;
+  right: 20px;
+}
+#g-btn{
+  text-decoration: none;
+  background-color: #1f4a40;
+  color: white;
+  padding: 9px 30px;
+  border-radius: 30px;
+  cursor: pointer;
+}
